@@ -1,12 +1,16 @@
 {
   "name": "gestion-reservas-devops",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000G\u0000e\u0000s\u0000t\u0000i\u0000�\u0000n\u0000 \u0000d\u0000e\u0000 \u0000R\u0000e\u0000s\u0000e\u0000r\u0000v\u0000a\u0000s\u0000 \u0000D\u0000e\u0000v\u0000O\u0000p\u0000s\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  "description": "Gestión de Reservas DevOps",
+  "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
